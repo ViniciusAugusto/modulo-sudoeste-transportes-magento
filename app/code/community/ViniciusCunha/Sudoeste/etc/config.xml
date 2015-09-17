@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+  	<modules>
+    	<ViniciusCunha_Sudoeste>
+      		<version>1.0.0</version>
+    	</ViniciusCunha_Sudoeste>
+  	</modules>
+  	<global>
+    	<helpers>
+      		<sudoeste>
+        		<class>ViniciusCunha_Sudoeste_Helper</class>
+      		</sudoeste>
+    	</helpers>
+    	<models>
+      		<sudoeste>
+        		<class>ViniciusCunha_Sudoeste_Model</class>
+      		</sudoeste>
+    	</models>
+  	</global>
+    <default>
+        <carriers>
+            <sudoeste>
+                <active>1</active>
+                <model>sudoeste/carrier_sudoeste</model>
+                <name>Sudoeste Transportes</name>
+                <title>Transportadora</title>
+                <description>Transportadora Sudoeste</description>
+                <sort_order>10</sort_order>
+                <url>http://ssw.inf.br/ws/sswCotacao/</url>
+            </sudoeste>
+        </carriers>
+    </default>
+</config> 
